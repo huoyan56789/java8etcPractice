@@ -1,0 +1,9 @@
+https://www.cnblogs.com/wmyskxz/p/9010832.html
+@Component：表明当前类是一个 Java Bean
+@ConfigurationProperties(prefix = "student")：表示获取前缀为 sutdent 的配置信息
+Spring Boot 热部署
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-devtools</artifactId>
+    <optional>true</optional> <!-- 这个需要为 true 热部署才有效 -->
+</dependency
